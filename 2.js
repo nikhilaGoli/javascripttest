@@ -5,7 +5,7 @@ const fetch_cached = (url) => {
     let key = url;
     let cachedata = JSON.parse(localStorage.getItem(key));
     if (cachedata === null) {
-      console.log("cache datta");
+      console.log("cache data");
      localStorage.setItem(key, JSON.stringify(data));
       return;
     }

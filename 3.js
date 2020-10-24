@@ -8,7 +8,7 @@ function getmetatags(url) {
   metatags.ogTitle = $('meta[property="og:title"]').attr('content'),
   metatags.ogkeywords = $('meta[property="og:keywords"]').attr('content'),
   metatags.images = $('img');
-  console.log(metatags)l
+  console.log(metatags);
 }
 
 getmetatags(url);
